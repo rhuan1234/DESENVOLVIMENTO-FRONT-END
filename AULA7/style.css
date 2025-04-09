@@ -1,0 +1,153 @@
+body{
+    width: 900px;
+    margin: auto;
+    position: relative;
+    background-color: #123123;
+
+}
+
+@font-face {
+    font-family: 'MinhaFonte'; /* Nome personalizado para a fonte */
+    src: url('./jp_fontJurassicPark.ttf') format('truetype'); /* Caminho para o arquivo da fonte */
+}
+
+header{
+    background-image: url(jp_topoFundo.jpg);
+    overflow: hidden;
+    width: 100%;
+    
+}
+
+header figure{
+    float: left;
+}
+
+header h3{
+    color: white;
+    float: left;
+    margin-left: 0%;
+    margin-top: 10%;
+    background-image: url(jp_menuFundo.jpg);
+    width: 60%;
+    text-align: center;
+    padding: 1%;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border: 2px solid white;
+}
+
+header h3 a{
+    color: white;
+    text-decoration: none;
+}
+
+header::after {
+    content: "";
+    display: table;
+    clear: both; /* Limpa o float */
+}
+
+ #titulo{
+    clear: both;
+    background-color: #550000;
+    color: white;
+    text-align: center;
+    font-size: large;
+    padding: 0.2em;
+    font-family: 'MinhaFonte', sans-serif; 
+    font-size: 4em;
+    margin: 0;
+}
+
+#titulo p{
+    margin: 0;
+}
+
+article.pr{
+    overflow: hidden;
+    width: 100%;
+   background-color: white;
+
+}
+
+
+article.pr figure {
+    float: left;
+   
+}
+
+article.pr figure img {
+    border: solid 4px red;
+}
+
+article.pl{
+    overflow: hidden;
+    width: 100%;
+    background-color: gray;
+    color: white;
+ 
+}
+
+article.pl p{
+    margin-left: 3%;
+ 
+}
+
+article.pl h2{
+    margin-left: 3%;
+}
+
+article.pl figure{
+    float: right;
+}
+article.pl figure img {
+    border: solid 4px yellow;
+}
+
+#premios{
+    background-image: url(jp_fundoSelva.jpg);
+    padding: 7%;
+}
+
+#premios h2{
+    text-align: center;
+    color: white;
+}
+
+#premios div table{
+    margin: auto;
+}
+ table tr th{
+    clear: both;
+    background-color: #333333;
+    padding: 8px;
+    color: white;
+
+}
+
+table .yellow td{
+    clear: both;
+    background-color: yellow;
+    padding: 8px;
+    color: black;
+
+}
+
+table .gray td{
+    clear: both;
+    background-color: gray;
+    padding: 8px;
+    color: black;
+
+}
+
+section video{
+    clear: both;
+}
+
+footer{
+    background-image: url(jp_topoFundo.jpg);
+    padding: 1%;
+    text-align: center;
+    color: white;
+}
